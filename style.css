@@ -56,14 +56,11 @@ a {
     margin: 20px;
 }
 
-.imgcntr {
-    display: block;
+.imgcntr img {
     width: 100%;
-    height: 100%; 
-    background-image: url('/home/fish/repos/landing_page/images/catburg.avif');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden; 
 }
 
 .font1 {
