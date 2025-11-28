@@ -1,0 +1,83 @@
+/* style.css */
+
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+.headerbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    align-items: center;
+    background-color: darkblue;
+}
+
+.logo {
+    color: aliceblue;
+    padding: 10px;
+}
+
+ul li {
+    display: inline;
+    padding: 10px;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.boxa {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    background-color: darkblue;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+
+.sa1 {
+    flex-grow: 1;
+    flex-basis: 0;
+    margin: 20px;
+    gap: 10px;
+}
+
+.sa2 {
+    flex-grow: 1;
+    flex-basis: 0;
+    border: 20px;
+    margin: 20px;
+}
+
+.imgcntr {
+    display: block;
+    width: 100%;
+    height: 100%; 
+    background-image: url('/home/fish/repos/landing_page/images/catburg.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.font1 {
+    font-size: x-large;
+    font-weight: bold;
+    /* margin: 5px; */
+}
+
+
+.font2 {
+    /* margin: 5px; */
+}
+
+.font3 {
+    /* margin: 5px; */
+}
+
