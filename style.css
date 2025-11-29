@@ -17,14 +17,18 @@
 .logo {
     color: aliceblue;
     padding: 10px;
+    font-family: cursive;
+    font-size: x-large;
 }
 
-ul li {
+.hlink ul li {
     display: inline;
     padding: 10px;
     text-decoration: none;
     background-color: transparent;
     padding: 10px;
+    border:1px solid #FFFF;
+    padding:5px;
 }
 
 a {
@@ -66,15 +70,87 @@ a {
 .font1 {
     font-size: x-large;
     font-weight: bold;
-    /* margin: 5px; */
+    margin: 5px;
 }
 
 
 .font2 {
-    /* margin: 5px; */
+    margin: 5px;
 }
 
-.font3 {
-    /* margin: 5px; */
+.font3 button {
+    margin: 5px;
+    background-color: aqua;
 }
 
+.sb1 {
+    display: flex;
+    justify-content: center;
+}
+
+.boxb {
+    display: flex;
+    flex-direction: column;
+}
+
+.sb2 {
+  margin: 40px auto 0 auto;
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  height: 400px;
+}
+
+.box1 {
+  margin: 20px;
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.box2 {
+  /* margin: 20px; */
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0;
+  border-width:  1px;
+  border-color: rgb(255, 77, 166);
+  border-style: solid;
+}
+
+.txtb1 {
+  text-align:center;
+}
+
+.txtb2 {
+  text-align:center;
+}
+
+.box1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden; 
+}
+
+.box2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden; 
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0;
+}
